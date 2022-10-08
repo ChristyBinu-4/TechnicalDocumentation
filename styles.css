@@ -1,0 +1,212 @@
+@media (min-width: 1001px ){
+  body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  code{
+    background-color: rgb(230, 230, 230);
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin:10px 0px;
+  }
+  header{
+    font-size: large;
+  }
+  main{
+    width:90%;
+    height: fit-content;
+  }
+  p{
+    line-height: 24px;
+  }
+  a{
+    color:black;
+    text-decoration: none;
+  }
+  img{
+    display: block;
+  }
+  li{
+    width: 90%;
+    margin-top: 2px;
+  }
+  ul{
+    width: 800px;
+  }
+  ul li{
+    margin-top: 5px;
+  }
+  
+  #navbar{
+    padding: 10px 5px 0px 4px;
+    width : 210px;
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239, 239, 239);
+  }
+  
+  .nav-link{
+    margin: 6px 0 7px 0;
+    line-height: 26px;
+    border-top: 1px solid black; 
+  }
+  #nav-header{
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  
+  .nav-link:last-child{
+    border-bottom: 1px solid black;
+  }
+  
+  #main-doc{
+    padding-left:225px;
+  }
+  
+  .main-section header{
+    font-size: 22px;
+    margin-top: 15px;
+  }
+  .main-section:first-child header{
+    margin-top: 2px;
+    font-size:24px;
+    font-weight: 500 ;
+  }
+  
+  .image{
+    width: 500px;
+    margin-top:15px;
+  }
+  .two{
+    width:700px;
+  }
+  
+  #html-example{
+    display: block;
+    line-height: 20px;
+  }
+  
+  #last-ul{
+    margin-bottom: 45px;
+    background-color: rgb(247, 247, 247);
+    padding-top:2px;
+    padding-right:5px;
+    border-radius:4px;
+  }
+  
+  #last-ul li{
+    margin-top:15px;
+    list-style: none;
+    line-height: 28px;
+  }
+  
+}
+@media (max-width : 1000px){
+  body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  code{
+    background-color: rgb(230, 230, 230);
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin:10px 0px;
+  }
+  header{
+    font-size: large;
+  }
+  main{
+    width: 90%;
+    height: fit-content;
+  }
+  p{
+    line-height: 24px;
+  }
+  a{
+    color:black;
+    text-decoration: none;
+  }
+  img{
+    display: block;
+  }
+  li{
+    width:80%;
+    margin-top: 2px;
+  }
+  ul{
+    width: 800px;
+  }
+  ul li{
+    margin-top: 5px;
+  }
+  
+  #navbar{
+    padding: 10px 5px 0px 4px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239, 239, 239);
+  }
+  
+  .nav-link{
+    margin: 6px 0 7px 0;
+    line-height: 26px;
+    border-top: 1px solid black; 
+  }
+  #nav-header{
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  
+  .nav-link:last-child{
+    border-bottom: 1px solid black;
+  }
+  
+  #main-doc{
+    padding-top:10px;
+  }
+  
+  .main-section header{
+    font-size: 22px;
+    margin-top: 15px;
+  }
+  .main-section:first-child header{
+    margin-top: 2px;
+    font-size:24px;
+    font-weight: 500 ;
+  }
+  
+  .image{
+    width: 500px;
+    margin-top:15px;
+  }
+  .two{
+    width:700px;
+  }
+  
+  #html-example{
+    display: block;
+    line-height: 20px;
+  }
+  
+  #last-ul{
+    margin-left:0;
+    margin-bottom: 45px;
+    background-color: rgb(247, 247, 247);
+    padding-top:2px;
+    padding-right:5px;
+    border-radius:4px;
+  }
+  
+  #last-ul li{
+    margin-top:15px;
+    list-style: none;
+    line-height: 28px;
+  }
+  
+}
